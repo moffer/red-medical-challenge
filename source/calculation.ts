@@ -34,7 +34,7 @@ export function getSolutionWord(text: string) {
 }
 
 function splitTextBySentences(text: string): string[] {
-    return text.split(/\./);
+    return text.split(/\.|\?|\!/);
 }
 
 function sumPerSentence(sentences: string[]): number[] {
