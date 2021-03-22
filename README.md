@@ -18,16 +18,12 @@ Alles, was Du (neben NodeJS) brauchst, findest du in diesem Paket.
 ### Aufgabe
 
 Gegeben ist eine geheime Datei (-> `secret.enc`), deren Inhalt uns brennend interessiert.
-1. Entschlüssele die Datei mit dem Schlüssel `secret.key`. Der Verschlüsselungs-Algorithmus ist AES256-GCM. Alle Dateien, die du hierfür ben
-ötigst
-, findest du im Paket
-. 
+1. Entschlüssele die Datei mit dem Schlüssel `secret.key`. Der Verschlüsselungs-Algorithmus ist AES256-GCM. Alle Dateien, die du hierfür benötigst, findest du im Paket. 
     - Die entschlüsselte Datei ist ein ZIP-Archiv, das noch entpackt werden muss.
     - Die nativen Node-Module sind vollkommen ausreichend, um die Aufgabe zu lösen. Du musst keine weiteren Module installieren.
     - Achte auf die Schlüssel-Länge (32) und das Schlüssel-Format (String).
     
-    - Die Entschlüsselung ist zentraler Bestandteil dieser Aufgabe. Falls Du die Datei nicht entschlüsselt bekommst, kannst du aber die
-     weiteren Aufgaben mit der Datei `clear_smaller.txt` bearbeiten. 
+    - Die Entschlüsselung ist zentraler Bestandteil dieser Aufgabe. Falls Du die Datei nicht entschlüsselt bekommst, kannst du aber die weiteren Aufgaben mit der Datei `clear_smaller.txt` bearbeiten. 
 2. Sag uns wie die Summe aller vorkommenden Ziffern in der Datei aus Aufgabe 1) lautet.
    Beispiel:
    ```
@@ -40,11 +36,9 @@ Gegeben ist eine geheime Datei (-> `secret.enc`), deren Inhalt uns brennend inte
     i = 8  
     o = 16  
     u = 32
-4. Berechne für die Datei aus Aufgabe 1 die Summe der Ziffern (vgl. Aufgabe 2) pro Satz (Satz-Trennzeichen wie im deutschen Sprachgebrauch
-).      
+4. Berechne für die Datei aus Aufgabe 1 die Summe der Ziffern (vgl. Aufgabe 2) pro Satz (Satz-Trennzeichen wie im deutschen Sprachgebrauch).      
     
-    a) Sortiere die 10 größten Werte in der Reihenfolge ihres Vorkommens im Text in ein Array aus und subtrahiere von jedem Wert dessen
-     Index im Array.
+    a) Sortiere die 10 größten Werte in der Reihenfolge ihres Vorkommens im Text in ein Array aus und subtrahiere von jedem Wert dessen Index im Array.
     Beispiel: 
     ```
     gefundene Summen: [4, 8, 1, 5, 2, 7, 9]
